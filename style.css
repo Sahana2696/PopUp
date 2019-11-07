@@ -1,3 +1,39 @@
 h1, p {
   font-family: Lato;
 }
+.popup {   
+  width: 50%;  
+  margin: auto;
+  box-shadow: 5px 10px; 
+  overflow-x: hidden;
+  overflow-y: auto; 
+  position: fixed; 
+}  
+.popup\_inner {  
+  position: fixed;  
+  left: 25%;  
+  right: 25%;  
+  top: 25%;  
+  bottom: 25%;  
+  margin: auto;  
+  border-radius: 20px;  
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  
+}
+.btn-info{
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  padding: 10px 35px;
+  font-size:14px;
+}
+.btn{
+  color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    border: 1px solid transparent;
+    
+}
